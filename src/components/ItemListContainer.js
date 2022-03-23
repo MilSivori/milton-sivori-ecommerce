@@ -1,10 +1,9 @@
 import React from "react";
 
-const ItemListContainer = () => {
-
-let random = Math.floor(Math.random() * 3) + 1;
+const ItemListContainer = (props) => {
+let random
 let mensaje = () => {
-    switch (random){
+    switch (props.numero){
         case 1:
             random = "listo para pedir?"
             break;
@@ -20,7 +19,7 @@ mensaje()
 
 return (
 
-<h1>Bienvenido al Sitio, {random}</h1>
+<h1>Bienvenido al Sitio {props.nombre}, {random}</h1>
 
 )
 }
