@@ -1,15 +1,6 @@
 import React from "react";
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
-const CartWidget = () => {
-return (
+const CartWidget = () => (<ShoppingCartCheckoutIcon />)
 
-<ShoppingCartCheckoutIcon />
-
-)
-
-
-}
-
-
-export default CartWidget
+export {CartWidget}
