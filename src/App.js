@@ -5,7 +5,8 @@ import { CartWidget } from "./components/CartWidget";
 
 const App = () => {
     let random = Math.floor(Math.random() * 3) + 1;
-    const usuario = prompt("Ingresa tu Nombre")
+    const usuario = "Milton"
+
     return ( 
         <>
         <NavBar>
